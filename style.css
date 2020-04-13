@@ -1,189 +1,203 @@
+html,
 body {
-  margin: 0;
-  min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 32px;
-  color: #f2f2f2;
-  background-color: #080208;
-  background-image: url("img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family:"Open sans", sans-serif;
+  box-sizing: border-box;
 }
 
-.container {
-  max-width: 928px;
-  margin: 0 auto;
-  padding: 0 16px;
+header{
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  height: 70px;
+  position: relative;
+ }
+.logo {
+  margin-left: -1000px;
+  margin-top: -60px;
+  position: left;
 }
 
-.page-header {
-  margin: 0 0 180px;
-  padding: 32px 0 32px;
+.menu{
+ list-style: none;
+ position: absolute;
+ top: 32px;
+ right: 15px;
 }
 
-.page-header .container,
-.page-footer .container {
-  max-width: 1408px;
-  text-align: right;
+a {text-decoration: none;
+color: black;
 }
 
-.page-header a {
-  margin-left: 56px;
-  color: #fea18d;
+
+
+
+li {text-align: left;
+  display: inline;}
+
+main {
+  font-size: 70px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0px;
+  margin: 0px;
+  color: black;
+  background-color: white;
   text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: left;
 }
 
-.header-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+
+.block-1 {
+  font-size: 13px;
+  color: white;
+  padding: 180px 0;
+  background-image: url(images/stadium.png);
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  
+h1 {font-size: 26px;}
+h2 {font-size: 20px;}
+
+
+#button {
+margin-top:10px;
+background-color: black;
+color: white;
+font-size: 20px;
+border-radius: 25px;
+border: black
+}
+  
+.block-2 {
+  font-size: 14px;
+  padding: 80px}
+  
+.block-3 {
+  font-size: 14px;
+  padding: 180px}
+.block-4 {
+  font-size: 14px;
+  padding: 180px}
+
+.layout-positioner{
+    width: 350px;
+    margin: 10px 320px;}
+.stage1{
+  float: left;
+  width: 500px;
+  padding: 10px;
+}
+.stage2{
+  float: left;
+  width: 500px;
+  padding: 10px;
+  clear: right;
+}
+.stage3{
+  float: left;
+  width: 500px;
+  padding: 10px;
+}
+.stage4{
+  float: left;
+  width: 500px;
+  padding: 10px;
+  
 }
 
-.header-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+
+.block-5 {
+  font-size: 14px;
+  padding: 180px;
+  clear: both;}
+.block-6 {
+  font-size: 14px;
+  padding: 180px}
+  form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+  }
+  
+  fieldset {
+    padding: 10px;
+    border: 1px solid #34495e;
+    border-radius: 5px;
+  }
+  
+  fieldset legend {
+    color:black;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 95%;
+    height: 24px;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    font-family: "Roboto", sans-serif;
+    vertical-align: middle;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+    padding: 6px 15px;
+    color: #ffffff;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+table {margin: auto}
+tr {text-align: left;}
+
+footer{
+  color: black;
+  margin: 5px;
+  padding: 5px;
 }
 
-.hero-image {
-  margin-bottom: 480px;
-}
+caption {margin: 10 px;
+font-size: 28px;}
 
-.hero-image .container {
-  max-width: 1408px;
-  text-align: center;
-}
-
-.heading {
-  margin: 0 0 24px;
-  font-size: 80px;
-  line-height: 96px;
-}
-
-.hero-image p {
-  margin: 0;
-  font-size: 32px;
-  line-height: 48px;
-}
-
-.intro {
-  margin: 0 0 120px;
-}
-
-.subheading {
-  margin: 0 0 56px;
-  font-size: 56px;
-  line-height: 80px;
-  text-align: center;
-}
-
-.user-image {
-  margin: 0 0 32px;
-  text-align: center;
-}
-
-.intro h3,
-.portfolio h3 {
-  margin: 0 0 12px;
-  font-size: 28px;
-  line-height: 40px;
-  font-weight: 500;
-}
-
-.intro p {
-  margin: 0 0 32px;
-}
-
-.skills-list {
-  margin: 0;
+.up-button {
+  position: fixed;
+  z-index: 1;
   padding: 0;
-}
-
-.skills-list dt {
-  padding-left: 32px;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.skill-html {
-  background-image: url("img/icon-html.svg");
-}
-
-.skill-css {
-  background-image: url("img/icon-css.svg");
-}
-
-.level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #080208;
-  border: 1px solid #712073;
-  border-radius: 8px;
-}
-
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #fea18d;
-  border-radius: 6px;
-}
-
-.portfolio {
-  margin: 0 0 120px;
-}
-
-.projects {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.projects li {
-  margin: 0 0 80px;
-}
-
-.project-image {
-  margin: 0 0 24px;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: bold;
   text-align: center;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
 }
-
-.projects p {
-  margin: 0 0 24px;
-}
-
-.button {
-  padding: 6px 20px;
+.shown {
   display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 4px;
-  background-color: #712073;
-  color: #ffffff;
-}
-
-.page-footer {
-  padding: 40px 0;
-  background-color: #260c26;
-}
-
-.page-footer a {
-  margin-left: 56px;
-  color: #fea18d;
-  text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.footer-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email.svg");
-}
-
-.footer-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
 }
