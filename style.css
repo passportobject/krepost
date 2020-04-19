@@ -9,29 +9,20 @@ body {
   box-sizing: border-box;
 }
 
-header{
-  padding: 10px 0 10px 10px;
-  width: 100%;
-  height: 70px;
-  position: relative;
- }
-.logo {
-  margin-left: -1000px;
-  margin-top: -60px;
-  position: left;
-}
 
-.menu{
- list-style: none;
- position: absolute;
- top: 32px;
- right: 15px;
-}
 
-a {text-decoration: none;
-color: black;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  
 }
-
+a {text-decoration:none;
+color: black;}
+.logo
+.about
+.cost
+.contacts
 
 
 
@@ -108,7 +99,6 @@ border: black
   padding: 10px;
   
 }
-
 
 .block-5 {
   font-size: 14px;
