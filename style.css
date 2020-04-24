@@ -64,14 +64,17 @@ border: black
   
 .block-2 {
   font-size: 14px;
-  padding: 80px}
+  padding: 80px;
+  position: relative;}
   
 .block-3 {
   font-size: 14px;
-  padding: 180px}
+  padding: 180px;
+position: relative;}
 .block-4 {
   font-size: 14px;
-  padding: 180px}
+  padding: 180px;
+  position: relative;}
 
 .layout-positioner{
     width: 350px;
