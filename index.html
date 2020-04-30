@@ -11,12 +11,12 @@
 
   <body>
   <header> 
-    <nav class = "menu">
-      <div class="logo"><img src="images/logotype.png" width="" height="" alt="logo";></div>
-      <div class="about"><a href = "#block-5">О нас</a></div>
-      <div class="cost"><a href = "#block-6">Цена</a></div>
-      <div class="contacts"><a href = "#footer">Контакты</a></div>
-    </nav>
+    <ul class = "main-menu">
+      <li><img src="images/logotype.png" width="" height="" alt="logo";></li>
+      <li><a href = "#block-5">О нас</a></li>
+      <li class="active"><a href = "#block-6">Цена</a></li>
+      <li><a href = "#footer">Контакты</a></li>
+      </ul>
   </header>
     
 
@@ -133,12 +133,19 @@
 </main>
 
 <footer id="footer">
-  <div class = "footer">
-    <div>© 2017—2020 Underwing</div>
-    <div><a class="footer-email" href="mailto:passportobject@gmail.com">passportobject@gmail.com</a></div>
-    <div><a class="footer-phone" href="tel:+79057290427">+7 905 72 904 27</a></div>
-  </ul>
+  <div class="contacts">
+    <div class="title">Наши контакты</div>
+    <div class="item">
+      <div class="icon icon-phone"></div>
+      <a href="tel:+79057290427">+7 905 72 904 27</a>
+    </div>
+    <div class="item">
+      <div class="icon icon-email"></div>
+      <a href="mailto:passportobject@gmail.com">passportobject@gmail.com</a>
+    </div>
+  </div>
 </footer>
+
 <button class="up-button" type="button">
   ↑
   <span class="visually-hidden"></span>

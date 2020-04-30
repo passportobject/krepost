@@ -1,8 +1,7 @@
 html,
 body {
-  margin: 15px;
-  padding: 0;
-  text-align: center;
+  margin: 0;
+  padding: 10px;
   color: black;
   background-color: white;
   font-family:"Open sans", sans-serif;
@@ -11,22 +10,31 @@ body {
 
 
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
+.main-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-a {text-decoration:none;
-color: black;}
-.logo
-.about
-.cost
-.contacts
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 4px;
+}
+.main-menu a:hover {
+  background-color: black;
+  color: white;
+}
+  
+.main-menu a {
+  display: block;
+  padding: 10px 10px;
+  color: black;
+  background-color: white;
+  margin-left: -1px;
+  text-decoration: none;
+}
 
 
-
-li {text-align: left;
-  display: inline;}
 
 main {
   font-size: 70px;
@@ -78,28 +86,23 @@ position: relative;}
 
 .layout-positioner{
     width: 350px;
-    margin: 10px 320px;}
+    margin: 10px 10px;}
 .stage1{
   float: left;
   width: 500px;
-  padding: 10px;
 }
 .stage2{
   float: left;
   width: 500px;
-  padding: 10px;
   clear: right;
 }
 .stage3{
   float: left;
   width: 500px;
-  padding: 10px;
 }
 .stage4{
   float: left;
   width: 500px;
-  padding: 10px;
-  
 }
 
 .block-5 {
@@ -166,9 +169,47 @@ tr {text-align: left;}
 
 footer{
   color: black;
-  margin: 5px;
-  padding: 5px;
 }
+.contacts {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.contacts .title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #7f8c8c;
+}
+
+.contacts .item {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+.contacts .icon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 22px;
+  height: 32px;
+  background: url("images/contacts.png") no-repeat 0 0;
+}
+
+.contacts .icon-phone {
+  background-position: 0 -10px;
+}
+
+.contacts .icon-email {
+  background-position: -2px -38px;
+}
+
+.contacts a {
+  color:gray;
+}
+
 
 caption {margin: 10 px;
 font-size: 28px;}
